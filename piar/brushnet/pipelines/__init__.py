@@ -1,3 +1,0 @@
-from .pipeline_powerpaint_brushnet import StableDiffusionPowerPaintBrushNetPipeline
-
-__all__ = ["StableDiffusionPowerPaintBrushNetPipeline"]

@@ -1,0 +1,567 @@
+{
+ "dataset": "CustomConcept101 (Kumari et al., CVPR 2023)",
+ "source": "https://github.com/adobe-research/custom-diffusion (customconcept101/); images from the dataset's release archive",
+ "images": "filenames relative to <concept>/ in the dataset; non-square images are center-cropped to a square before any use",
+ "reserved_images": "images of the concept not used for fine-tuning",
+ "held_out": "the reserved image with the lowest mean SSCD similarity to the six fine-tuning images; shares the checkpoint with the fine-tuning images",
+ "n_concepts": 30,
+ "concepts": [
+  {
+   "concept": "actionfigure_3",
+   "category": "actionfigure",
+   "class_noun": "figurine",
+   "fine_tuning_images": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg"
+   ],
+   "reserved_images": [
+    "0.jpg",
+    "4.jpg"
+   ],
+   "held_out_image": "4.jpg"
+  },
+  {
+   "concept": "decoritems_houseplant2",
+   "category": "decoritems",
+   "class_noun": "houseplant",
+   "fine_tuning_images": [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "6.png",
+    "7.png"
+   ],
+   "reserved_images": [
+    "0.png",
+    "5.png"
+   ],
+   "held_out_image": "0.png"
+  },
+  {
+   "concept": "decoritems_houseplant3",
+   "category": "decoritems",
+   "class_noun": "houseplant",
+   "fine_tuning_images": [
+    "0.png",
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "6.png"
+   ],
+   "reserved_images": [
+    "5.png"
+   ],
+   "held_out_image": "5.png"
+  },
+  {
+   "concept": "flower_1",
+   "category": "flower",
+   "class_noun": "flower",
+   "fine_tuning_images": [
+    "0.jpg",
+    "1.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "7.jpg"
+   ],
+   "reserved_images": [
+    "2.jpg",
+    "6.jpg"
+   ],
+   "held_out_image": "2.jpg"
+  },
+  {
+   "concept": "flower_2",
+   "category": "flower",
+   "class_noun": "flower",
+   "fine_tuning_images": [
+    "0.jpg",
+    "1.jpg",
+    "2.jpg",
+    "4.JPG",
+    "5.jpg",
+    "6.jpg"
+   ],
+   "reserved_images": [
+    "3.jpg"
+   ],
+   "held_out_image": "3.jpg"
+  },
+  {
+   "concept": "instrument_music3",
+   "category": "instrument",
+   "class_noun": "violin",
+   "fine_tuning_images": [
+    "0.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png"
+   ],
+   "reserved_images": [
+    "1.png"
+   ],
+   "held_out_image": "1.png"
+  },
+  {
+   "concept": "jewelry_earring",
+   "category": "jewelry",
+   "class_noun": "earrings",
+   "fine_tuning_images": [
+    "0.png",
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png"
+   ],
+   "reserved_images": [
+    "6.png"
+   ],
+   "held_out_image": "6.png"
+  },
+  {
+   "concept": "person_1",
+   "category": "person",
+   "class_noun": "person",
+   "fine_tuning_images": [
+    "1.jpeg",
+    "3.jpeg",
+    "4.jpg",
+    "7.jpg",
+    "9.jpg",
+    "11.jpg"
+   ],
+   "reserved_images": [
+    "0.jpeg",
+    "2.jpeg",
+    "5.jpg",
+    "6.jpeg",
+    "8.jpg",
+    "10.jpg",
+    "12.jpg"
+   ],
+   "held_out_image": "10.jpg"
+  },
+  {
+   "concept": "person_2",
+   "category": "person",
+   "class_noun": "person",
+   "fine_tuning_images": [
+    "1.jpg",
+    "3.jpg",
+    "4.jpeg",
+    "6.jpg",
+    "7.jpg",
+    "10.jpg"
+   ],
+   "reserved_images": [
+    "0.jpg",
+    "2.jpg",
+    "5.jpeg",
+    "8.jpeg",
+    "9.jpg",
+    "11.jpg",
+    "12.jpg",
+    "13.jpg"
+   ],
+   "held_out_image": "12.jpg"
+  },
+  {
+   "concept": "person_3",
+   "category": "person",
+   "class_noun": "person",
+   "fine_tuning_images": [
+    "2.png",
+    "3.png",
+    "5.png",
+    "7.jpg",
+    "9.png",
+    "12.png"
+   ],
+   "reserved_images": [
+    "0.jpg",
+    "1.png",
+    "4.png",
+    "6.png",
+    "8.png",
+    "10.png",
+    "11.png",
+    "13.png",
+    "14.jpg"
+   ],
+   "held_out_image": "10.png"
+  },
+  {
+   "concept": "pet_cat5",
+   "category": "pet",
+   "class_noun": "cat",
+   "fine_tuning_images": [
+    "zhang-kaiyv-iOoCYbsNYDE-unsplash.jpg",
+    "zhang-kaiyv-iXheXK4YeAk-unsplash.jpg",
+    "zhang-kaiyv-ixVJDSLuLlM-unsplash.jpg",
+    "zhang-kaiyv-n9u7QS4HrT4-unsplash.jpg",
+    "zhang-kaiyv-tw4R1Qq5TpQ-unsplash.jpg",
+    "zhang-kaiyv-vvk9olEKQo8-unsplash.jpg"
+   ],
+   "reserved_images": [
+    "zhang-kaiyv-IUl-bSx28WU-unsplash.jpg",
+    "zhang-kaiyv-NJDi7dUlpNk-unsplash.jpg",
+    "zhang-kaiyv-S3mP4s-JKGM-unsplash.jpg"
+   ],
+   "held_out_image": "zhang-kaiyv-IUl-bSx28WU-unsplash.jpg"
+  },
+  {
+   "concept": "pet_dog1",
+   "category": "pet",
+   "class_noun": "dog",
+   "fine_tuning_images": [
+    "1.jpeg",
+    "3.jpeg",
+    "4.jpeg",
+    "5.jpeg",
+    "6.jpeg",
+    "7.jpeg"
+   ],
+   "reserved_images": [
+    "0.jpeg",
+    "2.jpeg"
+   ],
+   "held_out_image": "2.jpeg"
+  },
+  {
+   "concept": "pet_dog4",
+   "category": "pet",
+   "class_noun": "dog",
+   "fine_tuning_images": [
+    "0.jpg",
+    "1.jpeg",
+    "3.jpeg",
+    "4.jpeg",
+    "6.jpeg",
+    "7.jpeg"
+   ],
+   "reserved_images": [
+    "2.jpeg",
+    "5.jpeg"
+   ],
+   "held_out_image": "2.jpeg"
+  },
+  {
+   "concept": "plushie_cow",
+   "category": "plushie",
+   "class_noun": "cow plushie",
+   "fine_tuning_images": [
+    "0.png",
+    "1.png",
+    "2.png",
+    "3.png",
+    "7.png",
+    "8.png"
+   ],
+   "reserved_images": [
+    "4.png",
+    "5.png",
+    "6.png"
+   ],
+   "held_out_image": "4.png"
+  },
+  {
+   "concept": "plushie_panda",
+   "category": "plushie",
+   "class_noun": "panda plushie",
+   "fine_tuning_images": [
+    "1.png",
+    "3.png",
+    "6.png",
+    "7.png",
+    "8.png",
+    "9.png"
+   ],
+   "reserved_images": [
+    "0.png",
+    "2.png",
+    "4.png",
+    "5.png"
+   ],
+   "held_out_image": "5.png"
+  },
+  {
+   "concept": "plushie_teddybear",
+   "category": "plushie",
+   "class_noun": "teddybear",
+   "fine_tuning_images": [
+    "marina-shatskih-6MDi8o6VYHg-unsplash.jpg",
+    "marina-shatskih-B3Jnug3rKrs-unsplash.jpg",
+    "marina-shatskih-BYZdCQDSNTY-unsplash.jpg",
+    "marina-shatskih-kBo2MFJz2QU-unsplash.jpg",
+    "marina-shatskih-nKoIXtEfkZ8-unsplash.jpg",
+    "marina-shatskih-sIzj2poobss-unsplash.jpg"
+   ],
+   "reserved_images": [
+    "marina-shatskih-F_imBoYwuTk-unsplash.jpg"
+   ],
+   "held_out_image": "marina-shatskih-F_imBoYwuTk-unsplash.jpg"
+  },
+  {
+   "concept": "scene_barn",
+   "category": "scene",
+   "class_noun": "barn",
+   "fine_tuning_images": [
+    "0.jpg",
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "6.jpg"
+   ],
+   "reserved_images": [
+    "5.jpg"
+   ],
+   "held_out_image": "5.jpg"
+  },
+  {
+   "concept": "scene_garden",
+   "category": "scene",
+   "class_noun": "garden",
+   "fine_tuning_images": [
+    "0.jpg",
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg"
+   ],
+   "reserved_images": [
+    "6.jpg"
+   ],
+   "held_out_image": "6.jpg"
+  },
+  {
+   "concept": "scene_waterfall",
+   "category": "scene",
+   "class_noun": "waterfall",
+   "fine_tuning_images": [
+    "click-sluice-0bunJlJn69U-unsplash.jpg",
+    "dave-hoefler-DBGb9u1Yf6Q-unsplash.jpg",
+    "dave-hoefler-t56YSk_5SPc-unsplash.jpg",
+    "ethan-dow-5wJiUOE6YNM-unsplash.jpg",
+    "ravi-pinisetti-sxWyOaHJb0s-unsplash.jpg",
+    "tim-mossholder-o3qMftQupG8-unsplash.jpg"
+   ],
+   "reserved_images": [
+    "david-lindahl-WC0W0sESCow-unsplash.jpg",
+    "jon-meunier-1pbV3NxAIbE-unsplash.jpg",
+    "yang-liu-Cq3HuCIB6Uw-unsplash.jpg"
+   ],
+   "held_out_image": "jon-meunier-1pbV3NxAIbE-unsplash.jpg"
+  },
+  {
+   "concept": "things_corkscrew",
+   "category": "things",
+   "class_noun": "corkscrew",
+   "fine_tuning_images": [
+    "0.png",
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png"
+   ],
+   "reserved_images": [
+    "6.png"
+   ],
+   "held_out_image": "6.png"
+  },
+  {
+   "concept": "things_cup2",
+   "category": "things",
+   "class_noun": "cup",
+   "fine_tuning_images": [
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "9.jpg"
+   ],
+   "reserved_images": [
+    "0.jpg",
+    "1.jpg",
+    "7.jpg",
+    "8.jpg"
+   ],
+   "held_out_image": "7.jpg"
+  },
+  {
+   "concept": "things_headphone1",
+   "category": "things",
+   "class_noun": "headphone",
+   "fine_tuning_images": [
+    "0.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png"
+   ],
+   "reserved_images": [
+    "1.png"
+   ],
+   "held_out_image": "1.png"
+  },
+  {
+   "concept": "toy_pikachu1",
+   "category": "toy",
+   "class_noun": "pokemon toy",
+   "fine_tuning_images": [
+    "0.png",
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "6.png"
+   ],
+   "reserved_images": [
+    "5.png"
+   ],
+   "held_out_image": "5.png"
+  },
+  {
+   "concept": "toy_unicorn",
+   "category": "toy",
+   "class_noun": "toy",
+   "fine_tuning_images": [
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png"
+   ],
+   "reserved_images": [
+    "0.png",
+    "1.png"
+   ],
+   "held_out_image": "1.png"
+  },
+  {
+   "concept": "transport_car1",
+   "category": "transport",
+   "class_noun": "car",
+   "fine_tuning_images": [
+    "0.png",
+    "1.png",
+    "2.png",
+    "3.png",
+    "5.png",
+    "6.png"
+   ],
+   "reserved_images": [
+    "4.png"
+   ],
+   "held_out_image": "4.png"
+  },
+  {
+   "concept": "transport_car3",
+   "category": "transport",
+   "class_noun": "car",
+   "fine_tuning_images": [
+    "martin-katler-72PbiQhHJHM-unsplash.jpg",
+    "martin-katler-E5QW_maORfg-unsplash.jpg",
+    "martin-katler-ERdWJrv9FeY-unsplash.jpg",
+    "martin-katler-WyZh1SAPLQw-unsplash.jpg",
+    "martin-katler-maU12ShTjtY-unsplash.jpg",
+    "martin-katler-nH6uHS1g5Vw-unsplash.jpg"
+   ],
+   "reserved_images": [
+    "martin-katler-N1p9Ih0qq-c-unsplash.jpg",
+    "martin-katler-OfM1G5mWrdU-unsplash.jpg",
+    "martin-katler-jUlXwWok3xY-unsplash.jpg"
+   ],
+   "held_out_image": "martin-katler-OfM1G5mWrdU-unsplash.jpg"
+  },
+  {
+   "concept": "transport_tank",
+   "category": "transport",
+   "class_noun": "tank",
+   "fine_tuning_images": [
+    "0.jpg",
+    "1.jpg",
+    "2.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
+   ],
+   "reserved_images": [
+    "3.jpg"
+   ],
+   "held_out_image": "3.jpg"
+  },
+  {
+   "concept": "wearable_shoes2",
+   "category": "wearable",
+   "class_noun": "shoes",
+   "fine_tuning_images": [
+    "clem-onojeghuo-a7QYwkx_ZnM-unsplash.jpg",
+    "clem-onojeghuo-a7QYwkx_ZnM-unsplash copy.jpg",
+    "clem-onojeghuo-c317Wf_dydg-unsplash.jpg",
+    "nathan-dumlao-Kuh5sIvT3as-unsplash.jpg",
+    "nathan-dumlao-gUOoatBMCL4-unsplash.jpg",
+    "nathan-dumlao-vsTbiuRRKvA-unsplash.jpg"
+   ],
+   "reserved_images": [
+    "clem-onojeghuo-D8-7ra4Ocxw-unsplash.jpg"
+   ],
+   "held_out_image": "clem-onojeghuo-D8-7ra4Ocxw-unsplash.jpg"
+  },
+  {
+   "concept": "wearable_sunglasses1",
+   "category": "wearable",
+   "class_noun": "sunglasses",
+   "fine_tuning_images": [
+    "1.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "8.png"
+   ],
+   "reserved_images": [
+    "0.png",
+    "2.jpeg",
+    "7.png",
+    "9.png"
+   ],
+   "held_out_image": "7.png"
+  },
+  {
+   "concept": "wearable_sunglasses2",
+   "category": "wearable",
+   "class_noun": "sunglasses",
+   "fine_tuning_images": [
+    "0.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "9.png"
+   ],
+   "reserved_images": [
+    "1.png",
+    "6.png",
+    "7.png",
+    "8.png"
+   ],
+   "held_out_image": "7.png"
+  }
+ ]
+}

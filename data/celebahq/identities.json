@@ -1,0 +1,608 @@
+{
+ "dataset": "CelebA-HQ",
+ "images": "CelebA-HQ-img/ in the CelebAMask-HQ release; filenames below are relative to that folder",
+ "identity_labels": "CelebA identity annotations (integer identity id)",
+ "n_identities": 50,
+ "identities": [
+  {
+   "identity": 7613,
+   "fine_tuning_images": [
+    "686.jpg",
+    "3553.jpg",
+    "3876.jpg",
+    "8620.jpg",
+    "10186.jpg",
+    "10246.jpg"
+   ],
+   "held_out_image": "7553.jpg"
+  },
+  {
+   "identity": 475,
+   "fine_tuning_images": [
+    "4993.jpg",
+    "6906.jpg",
+    "11915.jpg",
+    "12735.jpg",
+    "14789.jpg",
+    "15041.jpg"
+   ],
+   "held_out_image": "17682.jpg"
+  },
+  {
+   "identity": 6346,
+   "fine_tuning_images": [
+    "5371.jpg",
+    "5587.jpg",
+    "8762.jpg",
+    "10999.jpg",
+    "12275.jpg",
+    "18467.jpg"
+   ],
+   "held_out_image": "1614.jpg"
+  },
+  {
+   "identity": 6987,
+   "fine_tuning_images": [
+    "3186.jpg",
+    "8598.jpg",
+    "12482.jpg",
+    "21403.jpg",
+    "22000.jpg",
+    "22182.jpg"
+   ],
+   "held_out_image": "8301.jpg"
+  },
+  {
+   "identity": 9700,
+   "fine_tuning_images": [
+    "3955.jpg",
+    "4763.jpg",
+    "5629.jpg",
+    "12005.jpg",
+    "15824.jpg",
+    "16033.jpg"
+   ],
+   "held_out_image": "8278.jpg"
+  },
+  {
+   "identity": 818,
+   "fine_tuning_images": [
+    "3536.jpg",
+    "4895.jpg",
+    "5862.jpg",
+    "10424.jpg",
+    "13079.jpg",
+    "24304.jpg"
+   ],
+   "held_out_image": "13545.jpg"
+  },
+  {
+   "identity": 8847,
+   "fine_tuning_images": [
+    "177.jpg",
+    "725.jpg",
+    "5127.jpg",
+    "7320.jpg",
+    "8169.jpg",
+    "13130.jpg"
+   ],
+   "held_out_image": "77.jpg"
+  },
+  {
+   "identity": 5321,
+   "fine_tuning_images": [
+    "8570.jpg",
+    "14531.jpg",
+    "25236.jpg",
+    "25291.jpg",
+    "26457.jpg",
+    "29456.jpg"
+   ],
+   "held_out_image": "12210.jpg"
+  },
+  {
+   "identity": 5703,
+   "fine_tuning_images": [
+    "3295.jpg",
+    "4184.jpg",
+    "6578.jpg",
+    "9669.jpg",
+    "10558.jpg",
+    "13250.jpg"
+   ],
+   "held_out_image": "4889.jpg"
+  },
+  {
+   "identity": 160,
+   "fine_tuning_images": [
+    "1205.jpg",
+    "5509.jpg",
+    "6757.jpg",
+    "9130.jpg",
+    "15095.jpg",
+    "18530.jpg"
+   ],
+   "held_out_image": "17726.jpg"
+  },
+  {
+   "identity": 9315,
+   "fine_tuning_images": [
+    "2418.jpg",
+    "4083.jpg",
+    "11004.jpg",
+    "21794.jpg",
+    "24879.jpg",
+    "26729.jpg"
+   ],
+   "held_out_image": "20179.jpg"
+  },
+  {
+   "identity": 5225,
+   "fine_tuning_images": [
+    "1904.jpg",
+    "3681.jpg",
+    "6740.jpg",
+    "14431.jpg",
+    "17221.jpg",
+    "18132.jpg"
+   ],
+   "held_out_image": "1773.jpg"
+  },
+  {
+   "identity": 654,
+   "fine_tuning_images": [
+    "1810.jpg",
+    "3575.jpg",
+    "4701.jpg",
+    "12027.jpg",
+    "17464.jpg",
+    "23688.jpg"
+   ],
+   "held_out_image": "5116.jpg"
+  },
+  {
+   "identity": 61,
+   "fine_tuning_images": [
+    "9301.jpg",
+    "10152.jpg",
+    "10807.jpg",
+    "11985.jpg",
+    "14131.jpg",
+    "25605.jpg"
+   ],
+   "held_out_image": "19973.jpg"
+  },
+  {
+   "identity": 370,
+   "fine_tuning_images": [
+    "884.jpg",
+    "1818.jpg",
+    "7691.jpg",
+    "10402.jpg",
+    "17879.jpg",
+    "23563.jpg"
+   ],
+   "held_out_image": "3249.jpg"
+  },
+  {
+   "identity": 5532,
+   "fine_tuning_images": [
+    "2098.jpg",
+    "3004.jpg",
+    "3945.jpg",
+    "4500.jpg",
+    "11172.jpg",
+    "12464.jpg"
+   ],
+   "held_out_image": "6219.jpg"
+  },
+  {
+   "identity": 1196,
+   "fine_tuning_images": [
+    "570.jpg",
+    "2502.jpg",
+    "10208.jpg",
+    "11798.jpg",
+    "13768.jpg",
+    "28383.jpg"
+   ],
+   "held_out_image": "3638.jpg"
+  },
+  {
+   "identity": 17,
+   "fine_tuning_images": [
+    "2510.jpg",
+    "3493.jpg",
+    "6773.jpg",
+    "7098.jpg",
+    "7591.jpg",
+    "13982.jpg"
+   ],
+   "held_out_image": "17823.jpg"
+  },
+  {
+   "identity": 1645,
+   "fine_tuning_images": [
+    "10324.jpg",
+    "15066.jpg",
+    "16618.jpg",
+    "21078.jpg",
+    "27950.jpg",
+    "28015.jpg"
+   ],
+   "held_out_image": "22268.jpg"
+  },
+  {
+   "identity": 772,
+   "fine_tuning_images": [
+    "4972.jpg",
+    "11231.jpg",
+    "12954.jpg",
+    "14639.jpg",
+    "26875.jpg",
+    "27694.jpg"
+   ],
+   "held_out_image": "27849.jpg"
+  },
+  {
+   "identity": 3625,
+   "fine_tuning_images": [
+    "813.jpg",
+    "8129.jpg",
+    "8429.jpg",
+    "13078.jpg",
+    "18837.jpg",
+    "19792.jpg"
+   ],
+   "held_out_image": "2620.jpg"
+  },
+  {
+   "identity": 9199,
+   "fine_tuning_images": [
+    "1889.jpg",
+    "2076.jpg",
+    "9759.jpg",
+    "15003.jpg",
+    "16364.jpg",
+    "29089.jpg"
+   ],
+   "held_out_image": "21990.jpg"
+  },
+  {
+   "identity": 2573,
+   "fine_tuning_images": [
+    "2009.jpg",
+    "3550.jpg",
+    "7956.jpg",
+    "8180.jpg",
+    "12315.jpg",
+    "14038.jpg"
+   ],
+   "held_out_image": "11952.jpg"
+  },
+  {
+   "identity": 3092,
+   "fine_tuning_images": [
+    "5105.jpg",
+    "5385.jpg",
+    "12515.jpg",
+    "15139.jpg",
+    "16824.jpg",
+    "28561.jpg"
+   ],
+   "held_out_image": "4927.jpg"
+  },
+  {
+   "identity": 1916,
+   "fine_tuning_images": [
+    "867.jpg",
+    "6853.jpg",
+    "12418.jpg",
+    "16808.jpg",
+    "21332.jpg",
+    "26896.jpg"
+   ],
+   "held_out_image": "18247.jpg"
+  },
+  {
+   "identity": 9797,
+   "fine_tuning_images": [
+    "6696.jpg",
+    "16986.jpg",
+    "23477.jpg",
+    "28154.jpg",
+    "28713.jpg",
+    "29988.jpg"
+   ],
+   "held_out_image": "10363.jpg"
+  },
+  {
+   "identity": 4388,
+   "fine_tuning_images": [
+    "1031.jpg",
+    "5219.jpg",
+    "7835.jpg",
+    "11189.jpg",
+    "15952.jpg",
+    "21852.jpg"
+   ],
+   "held_out_image": "10076.jpg"
+  },
+  {
+   "identity": 7237,
+   "fine_tuning_images": [
+    "3774.jpg",
+    "4696.jpg",
+    "10983.jpg",
+    "12028.jpg",
+    "24052.jpg",
+    "27483.jpg"
+   ],
+   "held_out_image": "16741.jpg"
+  },
+  {
+   "identity": 6177,
+   "fine_tuning_images": [
+    "9240.jpg",
+    "14759.jpg",
+    "17228.jpg",
+    "20807.jpg",
+    "22847.jpg",
+    "23364.jpg"
+   ],
+   "held_out_image": "3305.jpg"
+  },
+  {
+   "identity": 2550,
+   "fine_tuning_images": [
+    "4197.jpg",
+    "7920.jpg",
+    "8002.jpg",
+    "8571.jpg",
+    "15090.jpg",
+    "20971.jpg"
+   ],
+   "held_out_image": "23701.jpg"
+  },
+  {
+   "identity": 130,
+   "fine_tuning_images": [
+    "3059.jpg",
+    "13449.jpg",
+    "14399.jpg",
+    "14722.jpg",
+    "15127.jpg",
+    "25841.jpg"
+   ],
+   "held_out_image": "22338.jpg"
+  },
+  {
+   "identity": 4255,
+   "fine_tuning_images": [
+    "14.jpg",
+    "9756.jpg",
+    "12780.jpg",
+    "19105.jpg",
+    "21568.jpg",
+    "26701.jpg"
+   ],
+   "held_out_image": "109.jpg"
+  },
+  {
+   "identity": 5006,
+   "fine_tuning_images": [
+    "1733.jpg",
+    "6347.jpg",
+    "16438.jpg",
+    "20460.jpg",
+    "22671.jpg",
+    "29819.jpg"
+   ],
+   "held_out_image": "22173.jpg"
+  },
+  {
+   "identity": 9041,
+   "fine_tuning_images": [
+    "5514.jpg",
+    "6134.jpg",
+    "6784.jpg",
+    "7309.jpg",
+    "9364.jpg",
+    "14500.jpg"
+   ],
+   "held_out_image": "5900.jpg"
+  },
+  {
+   "identity": 8853,
+   "fine_tuning_images": [
+    "9540.jpg",
+    "12073.jpg",
+    "17310.jpg",
+    "19529.jpg",
+    "19715.jpg",
+    "22489.jpg"
+   ],
+   "held_out_image": "20893.jpg"
+  },
+  {
+   "identity": 2253,
+   "fine_tuning_images": [
+    "10954.jpg",
+    "11720.jpg",
+    "16949.jpg",
+    "17822.jpg",
+    "21063.jpg",
+    "29291.jpg"
+   ],
+   "held_out_image": "23631.jpg"
+  },
+  {
+   "identity": 6284,
+   "fine_tuning_images": [
+    "5369.jpg",
+    "6545.jpg",
+    "8063.jpg",
+    "9866.jpg",
+    "24791.jpg",
+    "26015.jpg"
+   ],
+   "held_out_image": "11590.jpg"
+  },
+  {
+   "identity": 604,
+   "fine_tuning_images": [
+    "2367.jpg",
+    "8388.jpg",
+    "11712.jpg",
+    "12357.jpg",
+    "14736.jpg",
+    "17468.jpg"
+   ],
+   "held_out_image": "4904.jpg"
+  },
+  {
+   "identity": 1960,
+   "fine_tuning_images": [
+    "2203.jpg",
+    "4131.jpg",
+    "4955.jpg",
+    "8817.jpg",
+    "11933.jpg",
+    "14640.jpg"
+   ],
+   "held_out_image": "5436.jpg"
+  },
+  {
+   "identity": 5344,
+   "fine_tuning_images": [
+    "7085.jpg",
+    "7276.jpg",
+    "7826.jpg",
+    "10517.jpg",
+    "15362.jpg",
+    "17909.jpg"
+   ],
+   "held_out_image": "5461.jpg"
+  },
+  {
+   "identity": 2891,
+   "fine_tuning_images": [
+    "1442.jpg",
+    "3839.jpg",
+    "10112.jpg",
+    "15424.jpg",
+    "23021.jpg",
+    "29556.jpg"
+   ],
+   "held_out_image": "1275.jpg"
+  },
+  {
+   "identity": 4710,
+   "fine_tuning_images": [
+    "13070.jpg",
+    "13248.jpg",
+    "15088.jpg",
+    "17171.jpg",
+    "18410.jpg",
+    "27799.jpg"
+   ],
+   "held_out_image": "19884.jpg"
+  },
+  {
+   "identity": 5520,
+   "fine_tuning_images": [
+    "2798.jpg",
+    "2948.jpg",
+    "5917.jpg",
+    "11478.jpg",
+    "17030.jpg",
+    "18831.jpg"
+   ],
+   "held_out_image": "4158.jpg"
+  },
+  {
+   "identity": 801,
+   "fine_tuning_images": [
+    "6203.jpg",
+    "7934.jpg",
+    "8953.jpg",
+    "10385.jpg",
+    "12896.jpg",
+    "29714.jpg"
+   ],
+   "held_out_image": "4063.jpg"
+  },
+  {
+   "identity": 8098,
+   "fine_tuning_images": [
+    "3532.jpg",
+    "16850.jpg",
+    "17125.jpg",
+    "20380.jpg",
+    "22200.jpg",
+    "27983.jpg"
+   ],
+   "held_out_image": "13034.jpg"
+  },
+  {
+   "identity": 273,
+   "fine_tuning_images": [
+    "1049.jpg",
+    "1450.jpg",
+    "4212.jpg",
+    "5522.jpg",
+    "7071.jpg",
+    "14711.jpg"
+   ],
+   "held_out_image": "4412.jpg"
+  },
+  {
+   "identity": 5185,
+   "fine_tuning_images": [
+    "4395.jpg",
+    "6658.jpg",
+    "14623.jpg",
+    "23893.jpg",
+    "24629.jpg",
+    "26170.jpg"
+   ],
+   "held_out_image": "19625.jpg"
+  },
+  {
+   "identity": 14,
+   "fine_tuning_images": [
+    "3262.jpg",
+    "16204.jpg",
+    "18952.jpg",
+    "23658.jpg",
+    "25741.jpg",
+    "29087.jpg"
+   ],
+   "held_out_image": "17059.jpg"
+  },
+  {
+   "identity": 4017,
+   "fine_tuning_images": [
+    "8753.jpg",
+    "11351.jpg",
+    "16011.jpg",
+    "24312.jpg",
+    "25023.jpg",
+    "25279.jpg"
+   ],
+   "held_out_image": "7918.jpg"
+  },
+  {
+   "identity": 6746,
+   "fine_tuning_images": [
+    "960.jpg",
+    "2868.jpg",
+    "3919.jpg",
+    "8732.jpg",
+    "19423.jpg",
+    "23744.jpg"
+   ],
+   "held_out_image": "2895.jpg"
+  }
+ ]
+}

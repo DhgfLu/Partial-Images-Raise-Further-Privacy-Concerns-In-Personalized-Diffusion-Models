@@ -1,1 +1,0 @@
-score.py writes one file per (run, kind, dataset[, tier]) here; tables.py builds every table from them.
